@@ -1,0 +1,20 @@
+h1 {
+    font-size: 40pt;
+    color: rgb(112, 0, 216);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    @include box-sizing(border-box);
+}
+
+
+
+footer {
+    width: 100%;
+    display: inline-block;
+    margin: 2em 0;
+    height: 70px;
+    background-color: pink;
+}
